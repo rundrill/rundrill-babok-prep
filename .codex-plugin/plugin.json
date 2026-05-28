@@ -1,0 +1,33 @@
+{
+  "name": "rundrill-babok-prep",
+  "version": "0.1.0",
+  "description": "Business-analysis coach (BABOK / IIBA) — prep for ECBA, CCBA, and CBAP by judging scenarios and reviewing real BA artifacts, with drills, progress, and mistake memory, inside your AI agent.",
+  "author": {
+    "name": "RunDrill",
+    "email": "hello@rundrill.com",
+    "url": "https://rundrill.com"
+  },
+  "homepage": "https://rundrill.com",
+  "repository": "https://github.com/rundrill/rundrill-babok-prep",
+  "license": "CC-BY-NC-ND-4.0",
+  "keywords": ["rundrill", "course", "coach", "drills", "babok", "business-analysis", "iiba", "ecba", "ccba", "cbap", "requirements", "exam-prep"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "RunDrill BABOK Prep",
+    "shortDescription": "Business-analysis coach: judge BABOK scenarios, review real BA artifacts, prep ECBA/CCBA/CBAP.",
+    "longDescription": "An interactive business-analysis coach for the IIBA certification ladder (ECBA → CCBA → CBAP). Blended drills pair an exam-style scenario judgment with producing a real BA artifact — a requirement, user story, stakeholder matrix, model, or business case — graded against a rubric. Signature drill: review a plausible BA artifact and find the planted defect (a solution stated as a requirement, a passive-voice requirement that hides the actor, an everything-is-a-must MoSCoW list). Plus mock-elicitation role-plays and timed cumulative mock exams. Backed by the RunDrill MCP engine with progress tracking and mistake memory. Optional practitioner track for beyond-BABOK job skills (BPMN/UML/DMN, SQL, facilitation).",
+    "developerName": "RunDrill",
+    "category": "Education",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://rundrill.com",
+    "defaultPrompt": [
+      "Start a BABOK drill session.",
+      "Give me a scenario and let me judge what the BABOK answer is.",
+      "Show me a requirement and let me find what's wrong with it."
+    ],
+    "brandColor": "#3B7AE0",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

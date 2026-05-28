@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "rundrill-babok-prep": {
+      "type": "http",
+      "url": "https://mcp.rundrill.com/skills/babok"
+    }
+  }
+}
