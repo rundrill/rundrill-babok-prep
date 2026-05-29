@@ -1,0 +1,16 @@
+{
+  "name": "rundrill-babok-prep",
+  "version": "0.1.3",
+  "description": "BABOK / IIBA cert-prep coach \u2014 drills, progress, and mistake memory, inside your AI agent.",
+  "author": {
+    "name": "RunDrill",
+    "email": "hello@rundrill.com",
+    "url": "https://rundrill.com"
+  },
+  "homepage": "https://rundrill.com",
+  "mcpServers": {
+    "rundrill-babok-prep": {
+      "serverURL": "https://mcp.rundrill.com/skills/babok"
+    }
+  }
+}
