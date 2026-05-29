@@ -144,7 +144,7 @@ a clear named mistake with `record {action: "misconceptions_add", ...}`. The res
 learning"*). React briefly and specifically, never with generic praise: a correct judgment can get a
 ≤6-word note ("exactly — that's a design, not a need"); a miss a ≤4-word ack ("careful — who acts?") —
 never praise a wrong answer, not every item; routine correctness is a silent ✓. Then call `practice`
-again until the plan count is reached; close with 2–4 honest lines. On the first drill of the day
+again until the plan count is reached; re-run `status` (show the banner) and begin the next batch — the user may be mid-chat, not a fresh session; close only when they stop, with 2–4 honest lines. On the first drill of the day
 (`is_first_drill_today`), if `profile.habit_anchor` is set, weave it once into the opener.
 
 If the brief's `topic` is `null`, the learner cleared their track — say so and offer to widen it.
