@@ -1,7 +1,7 @@
 {
   "name": "rundrill-babok-prep",
   "displayName": "RunDrill BABOK Prep",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Business-analysis coach (BABOK / IIBA) — prep for ECBA, CCBA, and CBAP by judging scenarios and reviewing real BA artifacts, with drills, progress, and mistake memory, inside your AI agent.",
   "author": {
     "name": "RunDrill",
